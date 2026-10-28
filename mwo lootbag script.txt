@@ -1,0 +1,21 @@
+mwo lootbag script
+
+
+https://www.reddit.com/r/mwo/comments/rujz6a/trick_to_click_on_all_of_the_loot_bags/
+
+
+$(".reachButton").each(function(i, e) { setTimeout(function() { e.click() }, i*300) } )
+
+
+
+and ".bonusButton" instead of ".reachButton" will get the ones at the bottom
+
+
+
+
+
+
+
+
+
+
